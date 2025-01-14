@@ -1,6 +1,6 @@
 import { customAlphabet } from 'nanoid'
 
-const defaultTips = '所有数据均来自官方，确保稳定与实时，用户群: 595941841，开源地址: https://github.com/vikiboss/60s'
+const defaultTips = '所有数据均来自官方，确保稳定与实时更新，如有疑问请联系管理员。'
 
 export const randomId = (size: number) => customAlphabet('1234567890abcdefghijklmnopqrstuvwxyz', size)
 
